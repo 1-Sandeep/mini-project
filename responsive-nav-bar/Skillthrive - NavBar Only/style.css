@@ -9,7 +9,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: aqua;
+  background-color: rgba(36, 37, 42, 0.9);
 }
 
 li,
@@ -83,8 +83,8 @@ nav .nav__links li a {
 
 nav .nav__links li a:hover {
   color: var(--primary-color);
-  border-bottom: var(--primary-color) 3px solid;
   padding-bottom: 5px;
+  border-bottom: var(--primary-color) 3px solid;
 }
 
 button:hover {
