@@ -1,0 +1,19 @@
+.photo-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 300px;
+}
+
+@media screen and (min-width: 600px) {
+  /* a class to make ramdom card tall */
+  .card-tall {
+    /* any item will span accross multiple rows vertically */
+    /* it says to span accross two rows from its starting position */
+    /* here 2 is starting point and other is end point here it is auto :::: span START / END */
+    grid-row: span 2 / auto;
+  }
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+}
