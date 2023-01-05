@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: white;
+}
+
+.site {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto 1fr 3fr;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+
+.page-title {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.masthead {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+.main-content {
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+.sidebar {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.footer {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+/*  */
